@@ -1,0 +1,14 @@
+platform:ios, '11.0'
+target 'WithEarlGreyUITests' do
+  use_frameworks!
+  pod 'Cucumberish'
+end
+target 'WithEarlGreyTests' do
+  pod 'EarlGrey', '= 1.15'
+  use_frameworks!
+  pod 'Cucumberish'
+end
+target 'OnlyEarlGreyTest' do
+    pod 'EarlGrey', '= 1.15'
+end
+
